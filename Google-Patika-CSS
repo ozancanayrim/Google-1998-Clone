@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+
+<style>
+
+    .head {
+        text-align: center;
+        width: 1205px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    li {
+        list-style-type: none;
+        padding: 2px;
+        margin-top: -3px;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .head-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .head {
+        background-color: #e8f1f2;
+    }
+
+    .div-1 {
+        margin-top: 3px;
+        width: 400px;
+        height: 100px;
+        text-align: center;
+        background-color: #7FE9DE;
+        margin-right: 2px;
+        font-size: 18px;
+    }
+
+    .div-2 {
+        background-color: #59C1BD;
+        width: 300px;
+        height: 100px;
+        margin-top: 3px;
+        text-align: center;
+        margin-right: 2px;
+    }
+
+    .div-3 {
+        background-color: #62B6B7;
+        width: 500px;
+        height: 100px;
+        margin-top: 3px;
+        text-align: center;
+    }
+
+    
+</style>
+
+</head>
+<body>
+    
+<img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="">
+
+<div class="head-container">
+    <div class="head">
+        <p style="margin: 0;">Search the web using Google!</p>
+        <input style="width: 500px;" type="text"> <br>
+        <button>Google Search</button>
+        <button>I'm feeling lucky</button>
+    </div>
+</div>
+
+<div class="container">
+    <div class="div-1">      
+        <ul>
+            <li>Special Searches</li>
+            <li><a href="#">Stanford Search</a></li>
+            <li><a href="#">Linux Search</a></li>
+        </ul>
+    </div>
+
+    <div class="div-2">
+        <ul>
+            <li><a href="#">Help!</a></li>
+            <li><a href="#">About Google!</a></li>
+            <li><a href="#">Company Info</a></li>
+            <li><a href="#">Google!Logos</a></li>
+        </ul>
+    </div>
+
+    <div class="div-3">
+        <ul>
+            <li>Get Google!</li>
+            <li>updates monthly:</li>
+            <input style="width: 250px;" type="email" placeholder="your e-mail"> <br>
+            <button>Subscribe</button>
+            <a href="#">Archive</a>
+        </ul>
+    </div> 
+</div>
+
+<p style="text-align: center; font-size: 14px; margin-top: 25px;">Copyright <i class="fa-regular fa-copyright"></i> 1998 Google Inc.</p>
+
+</body>
+</html>
